@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karina Benavides | Contadora Pública – Cali, Colombia</title>
+  <meta name="description" content="Servicios contables y tributarios en Cali. Especialista en DIAN, declaración de renta, auditoría y declaración de renta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">  
+</head>
+
+<body>
+
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span>Karina Benavides</span>
+        <span>Contadora Pública</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#por-que">¿Por qué yo?</a></li>
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#contacto" class="nav-cta">Agendar Consultoría</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#perfil"      onclick="toggleMenu()">Perfil</a>
+  <a href="#servicios"   onclick="toggleMenu()">Servicios</a>
+  <a href="#por-que"     onclick="toggleMenu()">¿Por qué yo?</a>
+  <a href="#herramientas" onclick="toggleMenu()">Herramientas</a>
+  <a href="#contacto"    onclick="toggleMenu()">Contacto</a>
+</div>
+
+<!-- ══════════════════════ HERO ══════════════════════ -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-circle"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span>
+          Disponible para nuevos clientes
+        </div>
+        <h1 class="hero-title">
+          Su patrimonio,<br>
+          en manos<br>
+          <em>expertas.</em>
+        </h1>
+        <p class="hero-subtitle">
+          Servicios contables y tributarios de alto nivel para empresas y personas naturales en Colombia. Especialista en DIAN, declaración de renta y optimización fiscal.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-gold">
+            <span>Ver Servicios</span>
+            <span>→</span>
+          </a>
+          <a href="#contacto" class="btn btn-outline">
+            Agendar Consultoría
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span class="hero-stat-num" data-target="8">0</span>
+            <span class="hero-stat-label">Años de experiencia</span>
+          </div>
+          <div>
+            <span class="hero-stat-num" data-target="120">0</span>
+            <span class="hero-stat-label">Clientes satisfechos</span>
+          </div>
+          <div>
+            <span class="hero-stat-num" data-target="4">0</span>
+            <span class="hero-stat-label">Servicios especializados</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=840&q=80&auto=format&fit=crop" alt="Karina Benavides Contadora">
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-num">DIAN</div>
+          <div class="hero-card-txt">Experta en litigios</div>
+        </div>
+        <div class="hero-cred">
+          <div class="hero-cred-icon">📜</div>
+          <div class="hero-cred-text">
+            <span>Contadora Certificada</span>
+            <span>Colombia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ MARQUEE ══════════════════════ -->
+<div class="marquee-strip">
+  <div class="marquee-inner" id="marqueeInner">
+    <!-- duplicated for seamless loop -->
+    <span class="marquee-item">Declaración de Renta <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Auditoría Financiera <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Consultoría Tributaria <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Gestión de Nómina <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Litigios DIAN <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Declaración de Renta <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Planeación Fiscal <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Declaración de Renta <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Auditoría Financiera <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Consultoría Tributaria <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Gestión de Nómina <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Litigios DIAN <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Declaración de Renta <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Planeación Fiscal <span class="marquee-dot"></span></span>
+  </div>
+</div>
+
+<!-- ══════════════════════ PERFIL ══════════════════════ -->
+<section id="perfil">
+  <div class="container">
+    <div class="perfil-grid">
+      <div class="perfil-img-col reveal-left">
+        <div class="perfil-img-frame">
+          <img src="img/karina.jpeg" alt="Karina Benavides – Contadora Pública">
+          <div class="perfil-years">
+            <span class="perfil-years-num">8+</span>
+            <span class="perfil-years-txt">Años de Experiencia</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="perfil-content reveal-right">
+        <span class="section-label">Perfil Profesional</span>
+        <h2>Una contadora que trabaja <em>por y para</em> sus clientes</h2>
+        <p>
+          Soy Karina Benavides, Contadora Pública con sólida formación en derecho tributario y amplia experiencia atendiendo a empresas y personas naturales en Colombia. Mi enfoque va más allá de los números: acompaño a mis clientes en cada decisión financiera con transparencia y rigor profesional.
+        </p>
+        <p>
+          Especializada en normativa DIAN, declaraciones de rentas, optimización fiscal legal.  Ofrezco soluciones a medida que minimizan la carga tributaria mientras se mantiene plena conformidad con la ley.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-icon">⚖️</span>
+            <span>Derecho Tributario</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🏛️</span>
+            <span>Litigios DIAN</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📊</span>
+            <span>Declaración de Renta</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🔍</span>
+            <span>Auditoría Financiera</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📋</span>
+            <span>Planeación Fiscal</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">💼</span>
+            <span>Gestión Empresarial</span>
+          </div>
+        </div>
+
+        <div class="cert-strip">
+          <span class="cert-pill">Contadora Certificada</span>
+          <span class="cert-pill">JCC Colombia</span>
+          <span class="cert-pill">Cali, Colombia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ SERVICIOS ══════════════════════ -->
+<section id="servicios">
+  <div class="container">
+    <div class="servicios-header">
+      <div class="reveal">
+        <span class="section-label" style="color:var(--gold);">Nuestros Servicios</span>
+        <h2>Soluciones contables <em>integrales</em> para su negocio</h2>
+      </div>
+      <p class="reveal stagger-2">
+        Cada servicio está diseñado para brindarle seguridad jurídica y financiera, adaptado a las necesidades específicas de su empresa o situación personal.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal stagger-1">
+        <div class="service-number">01</div>
+        <span class="service-icon">📑</span>
+        <h3>Declaración de Renta</h3>
+        <p>Optimización de deducciones legales para reducir su carga tributaria al mínimo permitido por la ley.</p>
+        <div class="service-features">
+          <span class="service-feat">Personas naturales y jurídicas</span>
+          <span class="service-feat">Revisión de deducciones</span>
+          <span class="service-feat">Cumplimiento plazos DIAN</span>
+          <span class="service-feat">Acompañamiento ante notificaciones</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal stagger-2">
+        <div class="service-number">02</div>
+        <span class="service-icon">🔎</span>
+        <h3>Auditoría Integral</h3>
+        <p>Evaluación exhaustiva de estados financieros para garantizar transparencia y detectar irregularidades.</p>
+        <div class="service-features">
+          <span class="service-feat">Auditoría de estados financieros</span>
+          <span class="service-feat">Control interno empresarial</span>
+          <span class="service-feat">Cumplimiento normativo</span>
+          <span class="service-feat">Informes ejecutivos</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal stagger-3">
+        <div class="service-number">03</div>
+        <span class="service-icon">📈</span>
+        <h3>Consultoría Tributaria</h3>
+        <p>Estrategia fiscal personalizada para maximizar la eficiencia tributaria de su empresa o patrimonio.</p>
+        <div class="service-features">
+          <span class="service-feat">Planeación fiscal estratégica</span>
+          <span class="service-feat">Representación ante la DIAN</span>
+          <span class="service-feat">Litigios y recursos tributarios</span>
+          <span class="service-feat">Actualización normativa continua</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal stagger-4">
+        <div class="service-number">04</div>
+        <span class="service-icon">👥</span>
+        <h3>Gestión de Nómina</h3>
+        <p>Liquidación precisa y oportuna bajo normativa UGPP, minimizando riesgos laborales y parafiscales.</p>
+        <div class="service-features">
+          <span class="service-feat">Liquidación mensual de nómina</span>
+          <span class="service-feat">Aportes parafiscales UGPP</span>
+          <span class="service-feat">Prestaciones sociales</span>
+          <span class="service-feat">Certificados y reportes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="por-que">
+  <div class="container">
+    <div class="porque-grid">
+      <div class="porque-content reveal-left">
+        <span class="section-label">¿Por qué elegirme?</span>
+        <h2>Experiencia, <em>confianza</em> y resultados medibles</h2>
+        <p>Más de 8 años acompañando a mis clientes con dedicación, ética profesional y soluciones que marcan la diferencia en sus finanzas.</p>
+
+        <div class="porque-items">
+          <div class="porque-item">
+            <div class="porque-icon">⚡</div>
+            <div>
+              <h4>Respuesta rápida garantizada</h4>
+              <p>Atención a consultas urgentes en menos de 24 horas. Su tranquilidad no puede esperar.</p>
+            </div>
+          </div>
+          <div class="porque-item">
+            <div class="porque-icon">🛡️</div>
+            <div>
+              <h4>Seguridad jurídica total</h4>
+              <p>Cada declaración y trámite cumple al 100% con la normativa tributaria colombiana vigente.</p>
+            </div>
+          </div>
+          <div class="porque-item">
+            <div class="porque-icon">📉</div>
+            <div>
+              <h4>Reducción real de impuestos</h4>
+              <p>Estrategias legales de planeación fiscal que han reducido la carga tributaria de mis clientes entre un 15% y 30%.</p>
+            </div>
+          </div>
+          <div class="porque-item">
+            <div class="porque-icon">🤝</div>
+            <div>
+              <h4>Acompañamiento personalizado</h4>
+              <p>No soy solo su contadora; soy su aliada estratégica en cada decisión financiera importante.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="porque-visual reveal-right">
+        <img
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=840&q=80&auto=format&fit=crop"
+          alt="Trabajo profesional contable"
+          class="porque-img-main"
+        >
+        <div class="porque-accent"></div>
+        <div class="porque-stat-card">
+          <strong>98%</strong>
+          <span>Clientes que renuevan año a año</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ HERRAMIENTAS ══════════════════════ -->
+<section id="herramientas">
+  <div class="container">
+    <div class="herr-header reveal">
+      <span class="section-label">Herramientas Fiscales</span>
+      <h2>Calculadoras <em>gratuitas</em> para ti</h2>
+      <p>Use estas herramientas orientativas para estimar sus obligaciones tributarias. Para un análisis preciso, contáctenos.</p>
+    </div>
+
+    <div class="calc-grid">
+      <!-- Calculadora IVA -->
+      <div class="calc-card reveal stagger-1">
+        <h3>Calculadora de IVA</h3>
+        <p>Calcule el IVA de sus productos o servicios de forma rápida y sencilla.</p>
+
+        <div class="calc-input-group">
+          <label class="calc-label">Valor base (COP)</label>
+          <input type="number" class="calc-input" id="ivaBase" placeholder="Ej: 100000" min="0">
+        </div>
+        <div class="calc-input-group">
+          <label class="calc-label">Tarifa de IVA</label>
+          <select class="calc-select" id="ivaTarifa">
+            <option value="0.19">19% – Tarifa general</option>
+            <option value="0.05">5% – Tarifa diferencial</option>
+            <option value="0">0% – Excluido / Exento</option>
+          </select>
+        </div>
+        <button class="calc-btn" onclick="calcularIVA()">Calcular IVA</button>
+
+        <div class="calc-result" id="ivaResult">
+          <div class="calc-result-row"><span>Valor base</span><span id="ivaBaseOut">—</span></div>
+          <div class="calc-result-row"><span>IVA calculado</span><span id="ivaMontoOut">—</span></div>
+          <div class="calc-result-row total"><span>Total con IVA</span><span id="ivaTotalOut">—</span></div>
+        </div>
+      </div>
+
+      <!-- Calculadora Retención en la Fuente -->
+      <div class="calc-card reveal stagger-2">
+        <h3>Retención en la Fuente</h3>
+        <p>Estime la retención aplicable a pagos de servicios o compras según el concepto.</p>
+
+        <div class="calc-input-group">
+          <label class="calc-label">Valor del pago (COP)</label>
+          <input type="number" class="calc-input" id="retBase" placeholder="Ej: 500000" min="0">
+        </div>
+        <div class="calc-input-group">
+          <label class="calc-label">Concepto de retención</label>
+          <select class="calc-select" id="retConcepto">
+            <option value="0.11">Honorarios (11%)</option>
+            <option value="0.10">Servicios en general (10%)</option>
+            <option value="0.035">Compras (3.5%)</option>
+            <option value="0.01">Compras con tarjeta (1%)</option>
+            <option value="0.04">Arrendamientos (4%)</option>
+          </select>
+        </div>
+        <button class="calc-btn" onclick="calcularRetencion()">Calcular Retención</button>
+
+        <div class="calc-result" id="retResult">
+          <div class="calc-result-row"><span>Pago bruto</span><span id="retBaseOut">—</span></div>
+          <div class="calc-result-row"><span>Retención</span><span id="retMontoOut">—</span></div>
+          <div class="calc-result-row total"><span>Pago neto a recibir</span><span id="retNetOut">—</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p style="text-align:center; margin-top:32px; font-size:13px; color:rgba(255,255,255,0.3);">
+      * Estos cálculos son estimativos y orientativos. Consulte a un profesional para su caso específico.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════ CONTACTO ══════════════════════ -->
+<section id="contacto">
+  <div class="container">
+    <div class="contacto-grid">
+      <div class="contacto-info reveal-left">
+        <span class="section-label">Contacto</span>
+        <h2>Hablemos de su futuro <em>financiero</em></h2>
+        <p>
+          Agende una consultoría inicial y reciba una valoración personalizada de su situación tributaria. La primera sesión de diagnóstico es sin costo.
+        </p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon-box">📞</div>
+            <div class="contact-item-text">
+              <span>Teléfono / WhatsApp</span>
+              <a href="tel:+573001234567">+57 300 123 4567</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-box">✉️</div>
+            <div class="contact-item-text">
+              <span>Correo electrónico</span>
+              <a href="mailto:karina@karinabenavides.com">karina@karinabenavides.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-box">📍</div>
+            <div class="contact-item-text">
+              <span>Ubicación</span>
+              <span>Cali, Valle del Cauca – Colombia</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-box">🕐</div>
+            <div class="contact-item-text">
+              <span>Horario de atención</span>
+              <span>Lunes a Viernes, 8:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="contact-form-wrap">
+          <div id="formContent">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="nombre">Nombre *</label>
+                <input type="text" class="form-input" id="nombre" placeholder="Su nombre completo" autocomplete="name">
+                <span class="form-error" id="nombreErr">Por favor ingrese su nombre.</span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Correo electrónico *</label>
+                <input type="email" class="form-input" id="email" placeholder="correo@ejemplo.com" autocomplete="email">
+                <span class="form-error" id="emailErr">Ingrese un correo válido.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="telefono">Teléfono</label>
+                <input type="tel" class="form-input" id="telefono" placeholder="+57 300 000 0000" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="empresa">Empresa (opcional)</label>
+                <input type="text" class="form-input" id="empresa" placeholder="Nombre de su empresa">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="servicio">Servicio de interés *</label>
+              <select class="form-select" id="servicio">
+                <option value="">— Seleccione un servicio —</option>
+                <option value="renta">Declaración de Renta</option>
+                <option value="auditoria">Auditoría Integral</option>
+                <option value="consultoria">Consultoría Tributaria</option>
+                <option value="nomina">Gestión de Nómina</option>
+                <option value="otro">Otro / Consulta general</option>
+              </select>
+              <span class="form-error" id="servicioErr">Por favor seleccione un servicio.</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="mensaje">Mensaje *</label>
+              <textarea class="form-textarea" id="mensaje" placeholder="Cuénteme brevemente su situación o consulta..."></textarea>
+              <span class="form-error" id="mensajeErr">Por favor escriba su mensaje (mínimo 10 caracteres).</span>
+            </div>
+
+            <button class="form-submit" id="submitBtn" onclick="enviarFormulario()">
+              <span>Enviar Solicitud</span>
+              <span>→</span>
+            </button>
+          </div>
+
+          <div class="form-success-msg" id="successMsg">
+            <div class="check-icon">✅</div>
+            <h4>¡Solicitud enviada con éxito!</h4>
+            <p>Gracias por contactarme. Me comunicaré con usted en menos de 24 horas para agendar su consultoría.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span>Karina Benavides</span>
+        <span class="foot-sub">Contadora Pública</span>
+        <p>Servicios contables y tributarios de alto nivel para empresas y personas naturales en Colombia. Transparencia, rigor y resultados.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Servicios</h5>
+        <ul>
+          <li><a href="#servicios">Declaración de Renta</a></li>
+          <li><a href="#servicios">Auditoría Integral</a></li>
+          <li><a href="#servicios">Consultoría Tributaria</a></li>
+          <li><a href="#servicios">Gestión de Nómina</a></li>
+          <li><a href="#herramientas">Calculadoras Fiscales</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <address>
+          <span>📞 +57 300 123 4567</span>
+          <span>✉️ karina@karinabenavides.com</span>
+          <span>📍 Cali, Colombia</span>
+          <span>🕐 Lun–Vie: 8:00 AM – 6:00 PM</span>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Karina Benavides | Contadora Pública. Todos los derechos reservados.</p>
+      <div class="footer-badge">
+        <span class="footer-badge-dot"></span>
+        Disponible para nuevos clientes
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════ FLOAT BUTTONS ══════════════════════ -->
+<div class="wa-float">
+  <span class="wa-tooltip">¡Escríbeme por WhatsApp!</span>
+  <a href="https://wa.me/573001234567?text=Hola%20Karina%2C%20quisiera%20información%20sobre%20sus%20servicios%20contables"
+     target="_blank"
+     rel="noopener"
+     class="wa-btn"
+     aria-label="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 24px; height: 24px;">
+  </a>
+</div>
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Volver arriba">↑</button>
+</body>
+<script src="js/app.js"></script>
+</html>
